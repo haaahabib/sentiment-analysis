@@ -42,6 +42,43 @@ Berikut adalah daftar library yang diperlukan dalam proyek ini, yang dapat diins
 - **streamlit-extras==0.5.0**
 - **streamlit-lottie**
 
+## Cara Cloning Repositori
+
+1. Clone repositori dengan menggunakan perintah Git berikut:
+    ```bash
+    git clone https://github.com/haaahabib/Sentiment-Analysis.git
+    ```
+
+2. Masuk ke direktori proyek:
+    ```bash
+    cd Sentiment-Analysis
+    ```
+
+3. Buat **virtual environment** menggunakan Python yang sesuai dengan proyek ini:
+    ```bash
+    python -m venv venv
+    ```
+
+4. Aktivasi virtual environment:
+    - **Windows**:
+      ```bash
+      .\venv\Scripts\activate
+      ```
+    - **Mac/Linux**:
+      ```bash
+      source venv/bin/activate
+      ```
+
+5. Instal semua **library yang diperlukan** dengan menjalankan perintah berikut:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+6. Jalankan aplikasi **Streamlit** dengan perintah berikut:
+    ```bash
+    streamlit run app.py
+    ```
+
 ## Profil Pembuat
 - **Nama**: [Muhammad Habibulloh](https://github.com/haaahabib)
 - **NIM**: 202110370311259
