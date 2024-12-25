@@ -25,3 +25,5 @@ Tujuan dari proyek ini adalah:
 ## Dataset
 Dataset yang digunakan dalam project ini adalah [Singapore Airline Reviews](https://www.kaggle.com/datasets/kanchana1990/singapore-airlines-reviews)
 
+## Data Dictionary
+![image](https://github.com/user-attachments/assets/13a1b8af-6388-4ee8-ac4a-3ae1c2324f9f)
