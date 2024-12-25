@@ -44,22 +44,22 @@ Berikut adalah daftar library yang diperlukan dalam proyek ini, yang dapat diins
 
 ## Cara Cloning Repositori
 
-1. Clone repositori dengan menggunakan perintah Git berikut:
+1. Clone repositori dengan menggunakan Git
     ```bash
     git clone https://github.com/haaahabib/Sentiment-Analysis.git
     ```
 
-2. Masuk ke direktori proyek:
+2. Masuk ke direktori project
     ```bash
     cd Sentiment-Analysis
     ```
 
-3. Buat **virtual environment** menggunakan Python yang sesuai dengan proyek ini:
+3. Buat **virtual environment** menggunakan **Python 3.9.0** 
     ```bash
     python -m venv venv
     ```
 
-4. Aktivasi virtual environment:
+4. Aktivasi virtual environment
     - **Windows**:
       ```bash
       .\venv\Scripts\activate
@@ -69,12 +69,12 @@ Berikut adalah daftar library yang diperlukan dalam proyek ini, yang dapat diins
       source venv/bin/activate
       ```
 
-5. Instal semua **library yang diperlukan** dengan menjalankan perintah berikut:
+5. Install semua **library yang diperlukan**
     ```bash
     pip install -r requirements.txt
     ```
 
-6. Jalankan aplikasi **Streamlit** dengan perintah berikut:
+6. Jalankan aplikasi **Streamlit**
     ```bash
     streamlit run app.py
     ```
