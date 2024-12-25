@@ -9,9 +9,8 @@
 3. [Dataset](#Dataset)
 4. [Data Dictionary](#Data-Dictionary)
 5. [Library](#library-yang-diperlukan)
-6. [Proses Analisis](#Proses-analisis-dan-prediksi-sebagai-berikut)
-7. [Cloning Project](#Cara-Cloning-Repositori)
-8. [Profil Pembuat](#Profil-Pembuat)
+6. [Cloning Project](#Cara-Cloning-Repositori)
+7. [Profil Pembuat](#Profil-Pembuat)
 
 ## Deskripsi
 
