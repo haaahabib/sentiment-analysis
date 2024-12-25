@@ -1,5 +1,7 @@
 # Sentiment Analysis Singapore Airline Reviews with BERT and RoBERTa
 
+![Singapore Airlines Reviews](https://github.com/user-attachments/assets/4c7c9b6b-92bd-4c52-825c-1fddf54a8a70)
+
 ## Table of Content
 
 1. [Deskripsi](#Deskripsi)
