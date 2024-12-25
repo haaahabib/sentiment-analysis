@@ -1,6 +1,6 @@
 # Sentiment Analysis Singapore Airline Reviews with BERT and RoBERTa
 
-https://github.com/user-attachments/assets/68a16df8-a8aa-48fb-875c-0a8b0de22561
+![Streamlit App](https://github.com/user-attachments/assets/2d2b4a44-1adf-4f3f-ad47-411e55abcf02)
 
 ## Table of Content
 
@@ -29,3 +29,10 @@ Dataset yang digunakan dalam project ini adalah [Singapore Airline Reviews](http
 
 ## Data Dictionary
 ![image](https://github.com/user-attachments/assets/13a1b8af-6388-4ee8-ac4a-3ae1c2324f9f)
+
+## Profil Pembuat
+- **Nama**: [Muhammad Habibulloh](https://github.com/haaahabib)
+- **NIM**: 202110370311259
+- **Kelas**: Machine Learning (C)
+- [**LinkedIn**](https://www.linkedin.com/in/mhabibulloh/)
+
