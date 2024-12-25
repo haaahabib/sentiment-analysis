@@ -30,6 +30,19 @@ Dataset yang digunakan dalam project ini adalah [Singapore Airline Reviews](http
 ## Data Dictionary
 ![image](https://github.com/user-attachments/assets/13a1b8af-6388-4ee8-ac4a-3ae1c2324f9f)
 
+## Library yang diperlukan
+Berikut adalah daftar library yang diperlukan dalam proyek ini, yang dapat diinstal melalui file `requirements.txt`:
+
+- **tensorflow-cpu==2.13.0**
+- **transformers==4.31.0**
+- **scikit-learn==1.3.1**
+- **joblib==1.3.0**
+- **pandas==2.1.3**
+- **streamlit==1.25.0**
+- **altair==4.2.2**
+- **streamlit-extras==0.5.0**
+- **streamlit-lottie**
+
 ## Profil Pembuat
 - **Nama**: [Muhammad Habibulloh](https://github.com/haaahabib)
 - **NIM**: 202110370311259
