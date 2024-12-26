@@ -10,7 +10,9 @@
 4. [Data Dictionary](#Data-Dictionary)
 5. [Library](#library-yang-diperlukan)
 6. [Cloning Project](#Cara-Cloning-Repositori)
-7. [Profil Pembuat](#Profil-Pembuat)
+7. [BERT Model](#BERT-Model)
+8. [RoBERTa Model] (#RoBERTa-Model)
+9. [Profil Pembuat](#Profil-Pembuat)
 
 ## Deskripsi
 
@@ -78,6 +80,13 @@ Berikut adalah daftar library yang diperlukan dalam proyek ini, yang dapat diins
     ```bash
     streamlit run app.py
     ```
+## BERT Model
+![image](https://github.com/user-attachments/assets/c1423f7e-9d61-438b-92ab-778a8fda9399)
+![image](https://github.com/user-attachments/assets/0eb9fefd-142a-41a3-b1f4-6f1c4112fab6)
+
+## RoBERTa Model
+![image](https://github.com/user-attachments/assets/c076b3aa-385f-4b1d-bdfb-08c954d7447d)
+![image](https://github.com/user-attachments/assets/5e9fa807-3668-416d-bb26-2a2b26d6cd6c)
 
 ## Profil Pembuat
 - **Nama**: [Muhammad Habibulloh](https://github.com/haaahabib)
