@@ -11,7 +11,7 @@
 5. [Library](#library-yang-diperlukan)
 6. [Cloning Project](#Cara-Cloning-Repositori)
 7. [BERT Model](#BERT-Model)
-8. [RoBERTa Model] (#RoBERTa-Model)
+8. [RoBERTa Model](#RoBERTa-Model)
 9. [Profil Pembuat](#Profil-Pembuat)
 
 ## Deskripsi
