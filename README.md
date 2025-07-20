@@ -1,96 +1,110 @@
-# Sentiment Analysis Singapore Airline Reviews with BERT and RoBERTa
+# Analisis Sentimen Ulasan Singapore Airlines dengan BERT & RoBERTa
 
-![Streamlit App](https://github.com/user-attachments/assets/2d2b4a44-1adf-4f3f-ad47-411e55abcf02)
+Proyek ini bertujuan untuk melakukan analisis sentimen pada ulasan pelanggan Singapore Airlines menggunakan model deep learning canggih, yaitu BERT dan RoBERTa, untuk mengklasifikasikan sentimen sebagai positif atau negatif.
 
-## Table of Content
+---
 
-1. [Deskripsi](#Deskripsi)
-2. [Tujuan](#Tujuan)
-3. [Dataset](#Dataset)
-4. [Data Dictionary](#Data-Dictionary)
-5. [Library](#library-yang-diperlukan)
-6. [Cloning Project](#Cara-Cloning-Repositori)
-7. [BERT Model](#BERT-Model)
-8. [RoBERTa Model](#RoBERTa-Model)
-9. [Profil Pembuat](#Profil-Pembuat)
+## Daftar Isi
+
+1. [Deskripsi](#deskripsi)
+2. [Tujuan](#tujuan)
+3. [Dataset](#dataset)
+4. [Kamus Data](#kamus-data)
+5. [Tech Stack](#tech-stack)
+6. [Instalasi & Cara Menjalankan](#instalasi--cara-menjalankan)
+7. [Hasil Model](#hasil-model)
+
+---
 
 ## Deskripsi
 
-Project ini bertujuan untuk melakukan analisis sentimen pada ulasan Singapore Airlines menggunakan model BERT dan RoBERTa. Analisis ini memberikan wawasan apakah ulasan yang diberikan oleh pelanggan terhadap maskapai penerbangan bersifat positif atau negatif.
+Dalam proyek ini, sebuah aplikasi web interaktif dibangun menggunakan Streamlit untuk menganalisis sentimen dari ulasan pelanggan Singapore Airlines. Pengguna dapat memasukkan teks ulasan, dan aplikasi akan memprediksi sentimennya menggunakan model yang telah dilatih, yaitu BERT atau RoBERTa. Analisis ini memberikan wawasan berharga bagi maskapai untuk memahami persepsi pelanggan.
 
 ## Tujuan
 
-Tujuan dari proyek ini adalah:
-- Mengembangkan model untuk menganalisis sentimen dari teks ulasan penerbangan
-- Memanfaatkan model BERT dan RoBERTa untuk meningkatkan akurasi analisis sentimen
-- Membantu perusahaan penerbangan memahami sentimen pelanggan mereka
+- Mengembangkan model klasifikasi sentimen dengan akurasi tinggi menggunakan arsitektur Transformer (BERT & RoBERTa).
+- Membangun aplikasi web yang mudah digunakan untuk mendemokan kemampuan model.
+- Membantu maskapai penerbangan dalam memonitor dan memahami umpan balik pelanggan secara efisien.
+
+---
 
 ## Dataset
-Dataset yang digunakan dalam project ini adalah [Singapore Airline Reviews](https://www.kaggle.com/datasets/kanchana1990/singapore-airlines-reviews)
 
-## Data Dictionary
-![image](https://github.com/user-attachments/assets/13a1b8af-6388-4ee8-ac4a-3ae1c2324f9f)
+Dataset yang digunakan dalam proyek ini adalah [Singapore Airline Reviews](https://www.kaggle.com/datasets/kanchana1990/singapore-airlines-reviews) yang berisi ulasan teks dari pelanggan beserta label sentimennya.
 
-## Library yang diperlukan
-Berikut adalah daftar library yang diperlukan dalam proyek ini, yang dapat diinstal melalui file `requirements.txt`:
+## Kamus Data
 
-- **tensorflow-cpu==2.13.0**
-- **transformers==4.31.0**
-- **scikit-learn==1.3.1**
-- **joblib==1.3.0**
-- **pandas==2.1.3**
-- **streamlit==1.25.0**
-- **altair==4.2.2**
-- **streamlit-extras==0.5.0**
-- **streamlit-lottie**
+| Variabel | Tipe Data | Deskripsi |
+| :--- | :--- | :--- |
+| **reviews** | Teks | Ulasan dari pelanggan dalam format teks. |
+| **sentiment**| Kategorikal | Sentimen dari ulasan (0: negatif, 1: positif). |
 
-## Cara Cloning Repositori
+---
 
-1. Clone repositori dengan menggunakan Git
+## Tech Stack
+
+- **Bahasa Pemrograman:** Python 3.9.0
+- **Framework Aplikasi Web:** Streamlit
+- **Library Utama:**
+  - `torch==2.1.0`
+  - `transformers==4.31.0`
+  - `scikit-learn==1.3.1`
+  - `pandas==2.1.3`
+  - `joblib==1.3.0`
+  - `altair==4.2.2`
+  - `streamlit-extras`
+  - `streamlit-lottie`
+
+---
+
+## Instalasi & Cara Menjalankan
+
+1.  **Clone Repositori**
     ```bash
-    git clone https://github.com/haaahabib/Sentiment-Analysis.git
+    git clone https://github.com/haaahabib/sentiment-analysis.git
     ```
 
-2. Masuk ke direktori project
+2.  **Masuk ke Direktori Proyek**
     ```bash
     cd Sentiment-Analysis
     ```
 
-3. Buat **virtual environment** menggunakan **Python 3.9.0** 
+3.  **Buat Virtual Environment** (direkomendasikan)
     ```bash
     python -m venv venv
     ```
 
-4. Aktivasi virtual environment
-    - **Windows**:
-      ```bash
-      .\venv\Scripts\activate
-      ```
-    - **Mac/Linux**:
-      ```bash
-      source venv/bin/activate
-      ```
+4.  **Aktivasi Virtual Environment**
+    -   **Windows:** `.\venv\Scripts\activate`
+    -   **macOS/Linux:** `source venv/bin/activate`
 
-5. Install semua **library yang diperlukan**
+5.  **Install Library yang Dibutuhkan**
     ```bash
     pip install -r requirements.txt
     ```
 
-6. Jalankan aplikasi **Streamlit**
+6.  **Jalankan Aplikasi Streamlit**
     ```bash
     streamlit run app.py
     ```
-## BERT Model
-![image](https://github.com/user-attachments/assets/c1423f7e-9d61-438b-92ab-778a8fda9399)
-![image](https://github.com/user-attachments/assets/0eb9fefd-142a-41a3-b1f4-6f1c4112fab6)
+    Aplikasi akan terbuka secara otomatis di browser Anda.
 
-## RoBERTa Model
-![image](https://github.com/user-attachments/assets/c076b3aa-385f-4b1d-bdfb-08c954d7447d)
-![image](https://github.com/user-attachments/assets/5e9fa807-3668-416d-bb26-2a2b26d6cd6c)
+---
 
-## Profil Pembuat
-- **Nama**: [Muhammad Habibulloh](https://github.com/haaahabib)
-- **NIM**: 202110370311259
-- **Kelas**: Machine Learning (C)
-- [**LinkedIn**](https://www.linkedin.com/in/mhabibulloh/)
+## Hasil Model
 
+Berdasarkan evaluasi pada data uji, berikut adalah perbandingan performa antara model BERT dan RoBERTa. RoBERTa menunjukkan performa yang sedikit lebih unggul.
+
+### **Tabel Hasil Model BERT (Akurasi: 94%)**
+
+| Kelas | Precision | Recall | F1-Score |
+| :--- | :---: | :---: | :---: |
+| **Negatif** | 0.93 | 0.94 | 0.94 |
+| **Positif** | 0.94 | 0.93 | 0.93 |
+
+### **Tabel Hasil Model RoBERTa (Akurasi: 95%)**
+
+| Kelas | Precision | Recall | F1-Score |
+| :--- | :---: | :---: | :---: |
+| **Negatif** | 0.95 | 0.96 | 0.95 |
+| **Positif** | 0.96 | 0.95 | 0.95 |
