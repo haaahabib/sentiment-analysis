@@ -9,7 +9,7 @@ Proyek ini bertujuan untuk melakukan analisis sentimen pada ulasan pelanggan Sin
 1. [Deskripsi](#deskripsi)
 2. [Tujuan](#tujuan)
 3. [Dataset](#dataset)
-4. [Kamus Data](#kamus-data)
+4. [Data Dictionary](#data-dictionary)
 5. [Tech Stack](#tech-stack)
 6. [Instalasi & Cara Menjalankan](#instalasi--cara-menjalankan)
 7. [Hasil Model](#hasil-model)
@@ -32,7 +32,7 @@ Dalam proyek ini, sebuah aplikasi web interaktif dibangun menggunakan Streamlit 
 
 Dataset yang digunakan dalam proyek ini adalah [Singapore Airline Reviews](https://www.kaggle.com/datasets/kanchana1990/singapore-airlines-reviews) yang berisi ulasan teks dari pelanggan beserta label sentimennya.
 
-## Kamus Data
+## Data Dictionary
 
 | Variabel | Tipe Data | Deskripsi |
 | :--- | :--- | :--- |
